@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter In Js</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>Currency Converter</h1>
+      <form id="form">
+        <div id="amount">
+          <h3>Enter Your Amount</h3>
+          <input type="number" value="1" id="amount-input" />
+        </div>
+        <div id="dropdown">
+          <div id="from">
+            <h4>From</h4>
+            <div class="dropdown-container">
+              <img src="https://flagsapi.com/US/shiny/64.png" alt="Flag" />
+              <select id="select" name="from">
+              </select>
+            </div>
+          </div>
+          <div id="to">
+            <h4>To</h4>
+            <div class="dropdown-container">
+              <img src="https://flagsapi.com/PK/shiny/64.png" alt="Flag" />
+              <select id="select" name="to">
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <div id="change-amout">
+          <h5>1 USD = 270 PKR</h5>
+        </div>
+
+        <button>Change Exchange Rate</button>
+      </form>
+    </div>
+
+    <script src="code.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

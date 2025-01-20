@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Gilroy;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  width: 650px;
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 1rem;
+  padding: 50px 20px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.34);
+}
+
+#container h1 {
+  color: #007bff;
+  font-weight: 900;
+  text-transform: capitalize;
+  font-size: 4vw;
+  text-align: center;
+}
+
+#form {
+  padding-top: 3vw;
+  text-align: center;
+}
+
+#form #amount {
+  text-align: center;
+}
+
+#form h3 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #333333;
+  margin-bottom: 2vw;
+}
+
+#form #amount-input {
+  width: 100%;
+  border: 1px solid #dadaad;
+  padding: 20px 30px;
+  font-size: 20px;
+  color: #333333;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+#form #amount-input:focus {
+  border-color: orange;
+}
+
+#dropdown {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#from {
+  width: 45%;
+}
+
+#from h4,
+#to h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #007bff;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+#to {
+  width: 45%;
+}
+
+.dropdown-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.dropdown-container #select {
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.dropdown-container #select option {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+
+#change-amout {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 35px;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+#form button {
+    display: inline-block;
+    padding: 15px 30px;
+    border: 1px solid #333333;
+    margin: auto;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    transition: opacity .3s ease;
+}
+
+#form button:hover {
+    opacity: .9;
+}
